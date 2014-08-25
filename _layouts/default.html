@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<html xmlns:wb="http://open.weibo.com/wb">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="{{ site.author }}" />
+    
     <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
     <link rel="stylesheet" href="/media/css/style.css" />
     <link rel="stylesheet" href="/media/css/highlight.css" />
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
     <div id="container">
@@ -39,7 +42,8 @@
 {% endif %}
 {% if site.cnzz %}
              | <script src="http://s85.cnzz.com/stat.php?id={{ site.cnzz }}"></script>
-{% endif %}
+{% endif %}  | <a href="https://twitter.com/iamXiye" title="关注西野的Twitter"> Twitter</a>
+             | <a href="http://weibo.com/u/2125251795" title="关注西野的新浪微博"> 新浪微博</a>
          </small></p>
     </footer>
 
