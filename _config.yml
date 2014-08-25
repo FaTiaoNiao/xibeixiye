@@ -9,7 +9,7 @@ duoshuo: xiye
 cnzz: 1253126815
 weibo: 2125251795
 github: FaTiaoNiao
-pygments: true
+highlighter: pygments
 safe: true
 paginate: 20
 about: "西安土著，陕西国力（虽然已不存在）、曼联球迷，爱历史与小说，好骑车与徒步旅行，曾经的码农，现在的贫农，无主之地，OVER!"
