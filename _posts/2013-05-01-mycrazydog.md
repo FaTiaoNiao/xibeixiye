@@ -1,10 +1,12 @@
 ---
-date: 2013-06-10 00:14:31+00:00
+date: 2013-05-01 00:14:31+00:00
 layout: post
 title: 我家的狗是个疯子
 categories: 生活
 tags: 狗 疯子 搞笑
 ---
+
+![](/album/life/mydog.jpg)
 
 &nbsp;&nbsp;&nbsp;&nbsp;我家养过很多狗，但还幸存的这个就是个疯子！
 
