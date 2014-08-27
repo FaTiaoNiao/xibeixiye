@@ -138,3 +138,4 @@ background: #83BF73;
 header span{display: inline-block;}
 header h1{margin-bottom: 4px;padding-left: 8px;}
 header p{padding-left: 8px;margin-bottom: 4px;}
+.ds-powered-by a{display:none;}
